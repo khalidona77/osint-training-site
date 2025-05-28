@@ -1,21 +1,28 @@
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <title>اتصل بنا</title>
-  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
 </head>
 <body>
-  <h1>اتصل بنا</h1>
-  <form action="mailto:your_email@example.com" method="post" enctype="text/plain">
-    <label for="name">الاسم:</label>
-    <input type="text" id="name" name="name" required>
-    <label for="email">البريد الإلكتروني:</label>
-    <input type="email" id="email" name="email" required>
-    <label for="message">الرسالة:</label>
-    <textarea id="message" name="message" required></textarea>
-    <button type="submit">إرسال</button>
-  </form>
+  <div class="container mt-5">
+    <h1>نموذج الاتصال</h1>
+    <form>
+      <div class="mb-3">
+        <label class="form-label">الاسم</label>
+        <input type="text" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">البريد الإلكتروني</label>
+        <input type="email" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">الرسالة</label>
+        <textarea class="form-control" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">إرسال</button>
+    </form>
+  </div>
 </body>
 </html>
