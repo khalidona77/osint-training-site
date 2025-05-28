@@ -1,0 +1,31 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  direction: rtl;
+  text-align: right;
+  margin: 20px;
+}
+h1 {
+  color: #333;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin-left: 10px;
+}
+.telegram-btn {
+  display: inline-block;
+  padding: 10px;
+  background-color: #0088cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+form label, form input, form textarea {
+  display: block;
+  margin-bottom: 10px;
+}
